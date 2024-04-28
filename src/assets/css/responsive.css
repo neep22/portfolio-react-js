@@ -38,7 +38,12 @@
 .aboutImage::before {
 	width: 84%;
 	height: 270px;
-	left: 38%;
+	left: 33%;
+}
+.aboutImage img {
+	max-height: 600px;
+	width: 90%;
+	margin-left: 1rem;
 }
 
 .SliderMain {
@@ -51,20 +56,23 @@
    
 }
 .projectImg img {
-    max-width: 80%;
-    min-height: 250px;
-    border-radius: 15px;
+	max-width: 80%;
+	min-height: 250px;
+	border-radius: 15px;
+	margin: 0 46px;
+	padding: 15px;
 }
 .projectImg::before {
-    content: "";
-    position: absolute;
-    width: 90%;
-    height: 280px;
-    left: -4%;
-    top: 11%;
-    border: 5px solid #ff9a00;
-    z-index: -1;
-    border-radius: 15px;
+	content: "";
+	position: absolute;
+	width: 80%;
+	height: 256px;
+	left: 2%;
+	top: 18%;
+	border: 5px solid #ff9a00;
+	z-index: -1;
+	border-radius: 15px;
+	/* bottom: -25px; */
 }
 .navBarMain {
 	margin-left: 0;
