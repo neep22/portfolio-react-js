@@ -1,0 +1,132 @@
+
+@media (max-width: 575.98px) {
+    .aboutImage{
+        margin-right: 6rem;
+    }
+    .aboutImage::before {
+        width: 80%;
+        height: 252px;
+        left: 50%;
+    }
+    .aboutImage img {
+        max-height: 600px;
+        width: 90%;
+        margin-left: 3rem;
+    }
+    .aboutInfo {
+    margin:  66px 1rem -32px;
+}
+.skillWidth{
+    width: 100% !important;
+}
+.Counterbox1{
+    margin-left: 0rem !important;
+   
+}
+.Counterbox2{
+   margin-left: 10rem !important;
+  
+}
+.skillCard{
+    margin-top: 5rem;
+    width: 12rem !important;
+
+   }
+   .CounterTitle{
+    font-size: 15px !important;
+}
+
+.SliderMain {
+    width: 100% !important;
+    height: 20% !important;
+    background: white !important;
+}
+.contact-info {
+    margin-top: 1.5rem;
+   
+}
+.projectImg img {
+    max-width: 80%;
+    min-height: 250px;
+    border-radius: 15px;
+}
+.projectImg::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 280px;
+    left: -4%;
+    top: 11%;
+    border: 5px solid #ff9a00;
+    z-index: -1;
+    border-radius: 15px;
+}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    .cardWidth {
+        padding: -20;
+        margin-left: 10rem !important;
+    
+    }
+    .Counterbox1{
+        font-size: 20px;
+        font-weight: 700;
+        margin-left: 0rem !important;
+        border: 4px solid #ff9a00 !important;
+   }
+   .Counterbox2{
+       font-size: 20px;
+       font-weight: 700;
+       margin-left: 12rem !important;
+      
+   }
+   .skillCard{
+    width: 11rem !important;
+
+   }
+   .CounterFont{  
+    font-size: 25px;
+}
+.CounterTitle{
+    font-size: 16px !important;
+   
+  
+}
+.StudentName{
+    font-size: 16px;
+    text-align: center;
+}
+.StudentDescription{
+    padding: 1rem 3rem;
+    
+}
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .cardWidth {
+        width: 19rem !important;
+        height: 25rem;
+        padding: -20;
+    
+    }
+    .Counterbox1{
+        margin-left: -1rem !important;
+       
+   }
+   .Counterbox2{
+       margin-left: 14rem !important;
+      
+   }
+
+}
+
+
+@media (min-width: 1200px) {
+
+
+}

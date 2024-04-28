@@ -1,0 +1,718 @@
+.pt-80{
+    padding-top: 80px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+/*Navbar Item CSS Start*/
+.navTitle{
+    font-family: 'Montserreat',sans-serif;
+    font-size: 30px !important;
+    font-weight: 600;
+    color:#fff !important;
+}
+.navTitleScroll{
+    font-family: 'Montserreat',sans-serif;
+    font-size: 30px !important;
+    font-weight: 600;
+    color:#fff !important;
+   
+}
+.navBarMain{
+    margin-left: 35rem;
+
+}
+.navBackground{
+    -webkit-transition:background-color 400ms linear ;
+    -moz-transition:background-color 400ms linear ;
+    -o-transition:background-color 400ms linear ;
+    transition:background-color 400ms linear ;
+}
+
+.navBackgroundScroll{
+    -webkit-transition:background-color 400ms linear ;
+    -o-transition:background-color 400ms linear ;
+    transition:background-color 400ms linear ;
+    background-color: #333 !important;
+    
+}
+.navItem{
+    color:#fff!important;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 600 !important;
+    transition: .3s;
+
+}
+.navItem:hover{
+    color:#ff9a00 !important;
+}
+
+.navBarItemScroll{
+    color:#fff !important;
+    font-family: 'Raleway',sans-serif;
+    font-size: 14px;
+    font-weight: 600 !important;
+
+}
+.navBarItemScroll:hover{
+    color:#ff9a00 !important;
+}
+
+.barsScroll {
+    background: #333 !important;
+  }
+  .bars{
+    background: #333 !important;
+  }
+.bgColor {
+    background-color: #272727;
+}
+/*Navbar Item CSS End*/
+
+/*Banner Area CSS Start*/
+.TopBanner{
+    background-image: url("../img/bg.jpeg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+  
+}
+.BannerOverlay{
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+    background-color: #000;
+    z-index: 3;
+    opacity: .7;
+
+}
+.TopContent{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    z-index: 999;
+    transform: translate(-50%,-50%);
+}
+
+.TopTitle{
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+}
+.TopTitleSpan{
+    font-family: 'Montserreat',sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    line-height: 50px;
+}
+.TopSubTitle{
+    margin-top: 1rem;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom:2rem;
+   
+}
+.BannerBtn{
+  padding: 10px;
+  background-color: #ff9a00;
+  border:2px solid #ff9a00 !important;
+  color: black !important;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.BannerBtn:hover{
+    color: #ff9a00 !important;
+    border:2px solid #ff9a00 !important;
+    background-color: transparent;
+    transition: .7s;
+}
+/*Banner Area CSS End*/	
+
+/*About Area CSS Start*/
+.AboutContent {
+    border-bottom: 1px solid #12141e;
+}
+.aboutInfo {
+    margin: auto 66px 0 -32px;
+}
+.AboutName {
+    font-family: 'Raleway',sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: justify;
+    color: #ff9a00;
+}
+.AboutSubname{
+    margin-top: 1rem;
+    font-family: 'Raleway',sans-serif;
+    color: #333;
+    text-align: justify;
+    font-weight: 600;
+}
+.AboutDescription {
+	margin-top: 1rem;
+	color: #fff;
+	text-align: justify;
+	padding: 0 30px;
+	margin-left: -30px;
+    max-width: 658px;
+}
+.AboutLink{
+    color: #ddd;
+    background-color: #125ABE;
+    display: block;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.AboutLink:hover{
+   color:#333;
+   background-color: #fff;
+   border: 1px solid #18A1C1;
+   cursor: pointer;
+}
+.aboutbtn {
+    text-align: left;  
+}
+.aboutBtn {
+    display: inline-block;
+    margin-right: 24px;
+    margin-top: 18px;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #ff9a00 !important;
+    color: white !important;
+    font-size: 18px;
+    font-weight: 400 !important;
+    border-radius: 5px;
+    transition: .7s;
+}
+.aboutBtn:hover{
+    background-color: #ff9a00;
+    color: black !important;
+    border: 2px solid transparent !important;
+}
+.aboutImage{
+    position: relative;
+    padding: 10px 0 70px;
+    z-index: 3;
+}
+.aboutImage::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 352px;
+    left: 33%;
+    top: 15%;
+    border: 5px solid #ff9a00;
+    border-radius: 5%;
+    z-index: -1;
+}
+.aboutImage img {
+    border-radius: 5%;
+    max-height: 400px;
+    width: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 8px 0 rgb(26, 28, 27);
+}
+/*About Area CSS End*/
+
+/*Services Area CSS Start*/
+
+.ServiceContainer{
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #12141e;
+}
+.ServiceAreaTitle{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Raleway',sans-serif;
+    color: #ff9a00;
+}
+.ServiceDescription{
+    margin-top: 1rem;
+    text-align:justify; 
+    font-size: 16px;
+}
+.ServiceTitle{
+    margin-top: 7rem;
+    text-transform: capitalize;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    font-family: 'Raleway',sans-serif;
+    color: #ff9a00 !important;
+    text-align: center;
+   
+}
+.ServiceLink {
+    margin-top: 1.2rem;
+    color: black;
+    background-color: #ff9a00;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #ff9a00;
+    transition: .4s;
+}
+.ServiceLink:hover{
+    color:#000000;
+    background-color: #fff;
+    border: 2px solid #ff9a00;
+    cursor: pointer;
+}
+.card {
+    padding: 30px 10px 20px !important;
+}
+ /*Services Area CSS End*/
+
+ /*Counter Area CSS Start*/
+.skillsArea{
+    background-color: #272727;
+    border-bottom: 1px solid #12141e;
+}
+.Counterbox1{
+	 font-size: 20px;
+	 font-weight: 700;
+     margin-left: 4rem !important;
+     border: 4px solid #ff9a00 !important;
+}
+.Counterbox2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 22rem !important;
+    border: 4px solid #ff9a00 !important;
+}
+.BoxShadow {
+    border: 1px solid #b6b6b628;
+    box-shadow: 0 0 15px 0 #2b2a2b17 !important;
+    border-radius: 5%;
+    background-color: #1f1f1f;
+}
+.CounterFont{  
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 30px;
+}
+
+.CounterTitle{
+    text-transform: capitalize;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    font-family: 'Raleway',sans-serif;
+    color: #ff9a00 !important;
+    text-align: center;
+}
+ /*Counter Area CSS End*/    
+
+/*Project Area CSS Start*/    
+.projectArea{
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #12141e;
+}
+.projectAreaTitle {
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Raleway',sans-serif;
+    color: white;
+}
+.project{
+    border-bottom: 1px solid #333;
+}
+.projectInfo{
+    margin-top: 8rem;
+}
+.projectInfoTitle{
+    color: #ff9a00;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.projectInfoSub{
+    color: white;
+    padding: 10px 0;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.projectSubTitle{
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 500px;
+    text-align: justify;
+    padding-top: 15px;
+}
+.projectBtn{
+    color: #ff9a00;
+    transition: .7s;
+}
+.projectBtn:hover{
+    color: white;
+}
+.projectImg{
+    position: relative;
+    z-index: 3;
+    margin-bottom: 8rem !important;
+    margin-top: 2rem;
+}
+.projectImg::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 409px;
+    left: -4%;
+    top: 11%;
+    border: 5px solid #ff9a00;
+    z-index: -1;
+    border-radius: 15px;
+}
+.projectImg img {
+    max-width: 90%;
+    min-height: 400px;
+    border-radius: 15px;
+}
+
+/*Project Area CSS End*/ 
+
+.reviewArea{
+    background-color: #272727;
+    border-bottom: 1px solid #12141e;
+}  
+.SliderMain {
+    width: 35% !important;
+    height: 20% !important;
+    background: white !important;
+}
+.CardWidth{
+    width: 90%;
+    margin: 2rem;
+    transition: .3s;
+}
+.CardWidth:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.CardImg{
+    height: 16rem !important;
+ }
+
+.StudentName{
+    margin-top: 2rem;
+    font-size: 18px;
+    text-align: center;
+}
+.StudentTitle{
+    color: black;
+}
+.StudentDescription{
+    padding: 1rem 3rem;
+    text-align:justify; 
+}
+.CircleImg{
+    margin: 2rem auto 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.ReviewsCardWidth{
+    width: 30% !important;
+    transition: .3s;
+}
+
+.ReviewBoxShadow {
+    box-shadow: 0px 0px 10px 1px #ffffff77;
+}
+.slick-dots {
+    bottom: -43px !important;
+}
+.slick-dots li button:before {
+    color: white !important;
+}
+.slick-prev, .slick-next {
+    display: none !important;
+}
+
+/*Contact Area CSS Start*/
+.contactArea{
+    background-color: #1f1f1f;
+    border-bottom: 1px solid #1d202d;
+}
+.f-left {
+	float: left;
+	margin-bottom: 40px;
+    margin-top: 0;
+}
+.ContactsTitle {
+    text-transform: capitalize;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    font-family: 'Raleway',sans-serif;
+    color: #ff9a00 !important;
+    text-align: left;
+}
+.ContactsMainInfo{
+    text-transform: capitalize;
+    font-size: 25px !important;
+    font-weight: bold !important;
+    font-family: 'Raleway',sans-serif;
+    color: black !important;
+    text-align: left;
+    margin-top: 7.5rem;
+}
+.contact-form{
+    margin: 100px 20px;
+    display: block;
+    box-shadow: 1px  1px 1px 3px  2px #d3d3d3;
+    padding:20px ;
+}
+form input[type="text"], form textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    background: white;
+}
+form input[type="submit"] {
+	color: black;
+    font-size: 17px;
+	background-color: #ff9a00;
+	border: 1px solid transparent;
+	padding: 10px 30px;
+	text-transform: capitalize;
+    border-radius: 5px;
+    font-weight: 500;
+    display: block;
+}
+form input[type="submit"]:hover {
+	background-color: transparent;
+	color: #ff9a00;
+	border:1px solid #ff9a00 ;
+    border-radius: 5px;
+	transition: 1s;
+}
+.contact-info {
+    margin-top: 7.5rem;
+}
+
+.SingleContact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+	cursor: pointer;
+}
+.SingleContactIcon {
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 14px;
+    background-color: #E9204F;
+    border: 1px solid transparent;
+    color: #fff;
+    transition: .5s;
+    padding: 14px;
+}
+.SingleContactIcon:hover{
+	color: black;
+	border: 1px solid #E9204F;
+    background-color: white;
+}
+.SingleContactP {
+    font-size: 20px;
+    font-family: 'Raleway','sans-serif';
+    font-weight: 600;
+    text-align: left;
+}
+.SingleContactSpan {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: 5px; 
+}
+.ContactTitle{
+    float: left;
+  margin-top: 7rem;
+    
+}
+.contact-title span {
+	color: #25ABE1;
+	text-transform: capitalize;
+	font-size: 20px !important;
+	font-weight: 600;
+	position: relative;
+	
+}
+.FacebookIcon{
+    border-radius: 50%;
+    margin: 0 5px;
+    font-size: 21px;
+}
+.brand:hover{
+    transform: translateY(-10px);
+    transition: 1s;
+}
+.LinkdinIcon {
+	border-radius: 10%;
+    margin: 0 5px;
+    font-size: 21px;
+}
+.TwitterIcon {
+	border-radius: 10%;
+	margin: 0 5px;
+    font-size: 21px;	
+}
+.YoutubeIcon {
+    border-radius: 10%;
+    margin: 0 5px;
+    font-size: 21px;
+}
+.Footer{
+    background-color: #1b1b1b;
+}
+.footer-area {
+    text-align: center;
+    padding: 45px 0 20px;  
+    
+}
+.footer-area a {
+    border: 1px solid #ddd;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .3s;
+    border-color: #fff;
+    background-color: #fff;
+}
+.footer-area p {
+    font-size: 18px !important;
+     text-transform: capitalize;
+     margin-top: 20px;
+     color: #fff;
+}
+/*
+.contact-title span:before,
+.contact-title span:after {
+	position: absolute;
+	content: "";
+	background-color: #25ABE1;
+}*/
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: absolute;
+    width: 36px;
+    height: 30px;
+    left: 30px;
+    top: 20px;
+    background-color: rgba(17, 17, 17, 0) !important;
+
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #edf0f2;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: #18A1C1;
+
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+    
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background:#fff;;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    position: absolute;
+    height: 100%;
+    
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    background: #12141e;
+    padding: 60px 80px 0;
+    font-size: 15px;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill:#12141e;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad !important;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Individual item */
+.bm-item {
+    display: inline-block;
+    color: #fff!important;
+    margin-bottom: 10px;
+    text-align: left;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .bm-item:hover {
+    display: inline-block;
+  
+
+  }
+
+  #page-wrap {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
