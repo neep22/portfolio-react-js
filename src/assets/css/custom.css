@@ -7,19 +7,19 @@
 /*Navbar Item CSS Start*/
 .navTitle{
     font-family: 'Montserreat',sans-serif;
-    font-size: 30px !important;
+    font-size: 35px !important;
     font-weight: 600;
     color:#fff !important;
 }
 .navTitleScroll{
     font-family: 'Montserreat',sans-serif;
-    font-size: 30px !important;
+    font-size: 35px !important;
     font-weight: 600;
     color:#fff !important;
-   
+    
 }
 .navBarMain{
-    margin-left: 35rem;
+    margin-left: 45rem;
 
 }
 .navBackground{
@@ -39,21 +39,25 @@
 .navItem{
     color:#fff!important;
     font-family: 'Raleway',sans-serif;
-    font-size: 14px;
-    font-weight: 600 !important;
+    font-size: 16px;
+    font-weight: 700 !important;
     transition: .3s;
-
+    margin: 10px;
+    cursor: pointer;
+    transition: .3s;
 }
 .navItem:hover{
     color:#ff9a00 !important;
 }
 
-.navBarItemScroll{
-    color:#fff !important;
-    font-family: 'Raleway',sans-serif;
-    font-size: 14px;
-    font-weight: 600 !important;
-
+.navBarItemScroll {
+	color: #fff !important;
+	font-family: 'Raleway',sans-serif;
+	font-size: 16px;
+	font-weight: 700 !important;
+	margin: 10px;
+	cursor: pointer;
+    transition: .3s;
 }
 .navBarItemScroll:hover{
     color:#ff9a00 !important;
@@ -110,12 +114,12 @@
 .TopTitleSpan{
     font-family: 'Montserreat',sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     color: #fff;
-    line-height: 50px;
+    line-height: 90px;
 }
 .TopSubTitle{
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-family: 'Raleway',sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -496,20 +500,21 @@ form input[type="text"], form textarea {
 form input[type="submit"] {
 	color: black;
     font-size: 17px;
-	background-color: #ff9a00;
+	background: #ff9a00;
 	border: 1px solid transparent;
 	padding: 10px 30px;
 	text-transform: capitalize;
     border-radius: 5px;
     font-weight: 500;
     display: block;
+    transition: 1s;
 }
 form input[type="submit"]:hover {
-	background-color: transparent;
-	color: #ff9a00;
+	background-color: #ff9a00;
+	color: #333;
 	border:1px solid #ff9a00 ;
     border-radius: 5px;
-	transition: 1s;
+	
 }
 .contact-info {
     margin-top: 7.5rem;

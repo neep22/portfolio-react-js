@@ -10,14 +10,14 @@ function About() {
 
   return (
     <Fragment>
-     <Container fluid={true} className="AboutContent bgColor pt-80 pb-80">
+     <Container fluid={true} className="AboutContent bgColor pt-80 pb-80" id='about'>
         <Row>
             <Col lg={6} md={6} sm={12}>       
              <motion.div className="aboutImage "
 
                        viewport={{once:false}}
-                                initial={{opacity:0,x:-150}}
-                                whileInView={{opacity:1,x:0}}
+                                initial={{opacity:0,x:-0}}
+                                whileInView={{opacity:1,x:25}}
                                 transition={{type:'easeIn',
                                   duration:.3,
                                   delay:.3
@@ -30,7 +30,7 @@ function About() {
 
               <motion.div className="aboutInfo mt-5"
                    viewport={{once:false}}
-                   initial={{opacity:0,x:150}}
+                   initial={{opacity:0,x:25}}
                    whileInView={{opacity:1,x:0}}
                    transition={{type:'easeIn',
                      duration:.3,

@@ -9,7 +9,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 const Contact = () => {
   return (
     <Fragment>
-      <Container fluid={true} className="contactArea text center pt-80">
+      <Container fluid={true} className="contactArea text center pt-80" id='contact'>
         <h4 className="projectAreaTitle">
        
                 Contact Me

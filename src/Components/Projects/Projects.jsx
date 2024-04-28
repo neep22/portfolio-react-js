@@ -20,7 +20,7 @@ const Projects = () => {
 
   return (
    <Fragment>
-     <Container fluid={true} className="projectArea pt-80 pb-80">
+     <Container fluid={true} className="projectArea pt-80 pb-80" id='projects'>
         <h4 className="projectAreaTitle pb-5">
        
             
@@ -28,7 +28,7 @@ const Projects = () => {
 
         <Container className="mt-5 mb-5 project">
             <Row>
-                <Col lg={6} md={6} sm={12}>
+                <Col md={6} sm={12}>
                     <div className="projectInfo text-start">
                         <h1 className="projectInfoTitle">Project 1</h1>
                         <span className="projectInfoSub">travel & toursim website</span>
@@ -39,11 +39,11 @@ const Projects = () => {
                        
                     </div>
                 </Col>
-                <Col lg={6} md={6} sm={12}>
+                <Col md={6} sm={12}>
                     <motion.div className="projectImg"
                                viewport={{once:false}}
-                               initial={{opacity:0,x:100}}
-                               whileInView={{opacity:1,x:0}}
+                               initial={{opacity:0,y:-100}}
+                               whileInView={{opacity:1,y:0}}
                                transition={{type:'easeIn',
                                  duration:.5,
                                  delay:.3
@@ -58,11 +58,11 @@ const Projects = () => {
         </Container>
         <Container className="mt-5 mb-5 project">
             <Row>
-                <Col lg={6} md={6} sm={12}>
+                <Col md={6} sm={12}>
                     <motion.div className="projectImg"
                                viewport={{once:false}}
-                               initial={{opacity:0,x:-100}}
-                               whileInView={{opacity:1,x:0}}
+                               initial={{opacity:0,y:100}}
+                               whileInView={{opacity:1,y:0}}
                                transition={{type:'easeIn',
                                  duration:.5,
                                  delay:.3
@@ -73,7 +73,7 @@ const Projects = () => {
         
                     </motion.div>
                 </Col>
-                <Col lg={6} md={6} sm={12}>
+                <Col  md={6} sm={12}>
                     <div className="projectInfo text-start">
                         <h1 className="projectInfoTitle">Project 2</h1>
                         <span className="projectInfoSub">Restaurant Website</span>
@@ -88,7 +88,7 @@ const Projects = () => {
         </Container>
         <Container className="mt-5 mb-5 project">
             <Row>
-                <Col lg={6} md={6} sm={12}>
+                <Col md={6} sm={12}>
                     <div className="projectInfo text-start">
                         <h1 className="projectInfoTitle">Project 3</h1>
                         <span className="projectInfoSub">Personal Portfolio</span>
@@ -99,11 +99,11 @@ const Projects = () => {
                        
                     </div>
                 </Col>
-                <Col lg={6} md={6} sm={12}>
+                <Col  md={6} sm={12}>
                     <motion.div className="projectImg"
                                viewport={{once:false}}
-                               initial={{opacity:0,x:100}}
-                               whileInView={{opacity:1,x:0}}
+                               initial={{opacity:0,y:-100}}
+                               whileInView={{opacity:1,y:0}}
                                transition={{type:'easeIn',
                                  duration:.5,
                                  delay:.3
@@ -116,11 +116,11 @@ const Projects = () => {
         </Container>
         <Container className="mt-5 mb-5 project">
             <Row>
-                <Col lg={6} md={6} sm={12}>
+                <Col md={6} sm={12}>
                     <motion.div className="projectImg"
                                viewport={{once:false}}
-                               initial={{opacity:0,x:-100}}
-                               whileInView={{opacity:1,x:0}}
+                               initial={{opacity:0,y:100}}
+                               whileInView={{opacity:1,y:0}}
                                transition={{type:'easeIn',
                                  duration:.5,
                                  delay:.3
@@ -130,7 +130,7 @@ const Projects = () => {
                         <a href="https://faisal0804.github.io/courses/"><img onClick={handleShow} src={Project6} alt="Project"/></a>
                     </motion.div>
                 </Col>
-                <Col lg={6} md={6} sm={12}>
+                <Col md={6} sm={12}>
                     <div className="projectInfo text-start">
                         <h1 className="projectInfoTitle">Project 4</h1>
                         <span className="projectInfoSub">e-learning website</span>
@@ -143,7 +143,7 @@ const Projects = () => {
         </Container>
         <Container className="mt-5">
             <Row>
-                <Col lg={6} md={6} sm={12}>
+                <Col md={6} sm={12}>
                     <div className="projectInfo text-start">
                         <h1 className="projectInfoTitle">Project 5</h1>
                         <span className="projectInfoSub">IT Soluton website</span>
@@ -152,11 +152,11 @@ const Projects = () => {
 
                     </div>
                 </Col>
-                <Col lg={6} md={6} sm={12}>
+                <Col md={6} sm={12}>
                     <motion.div className="projectImg"
                                viewport={{once:false}}
-                               initial={{opacity:0,x:100}}
-                               whileInView={{opacity:1,x:0}}
+                               initial={{opacity:0,y:-100}}
+                               whileInView={{opacity:1,y:0}}
                                transition={{type:'easeIn',
                                  duration:.5,
                                  delay:.3

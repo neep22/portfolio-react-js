@@ -75,7 +75,7 @@ const settings = {
 const Reviews = () => {
   return (
     <Fragment>
-        <Container fluid={true} className="reviewArea text-center pt-80 pb-80">
+        <Container fluid={true} className="reviewArea text-center pt-80 pb-80" id='reviews'>
            <h4 className="projectAreaTitle text-center pb-5"> 
            
            Reviews</h4>

@@ -52,7 +52,7 @@ const Skill = () => {
   return (
     <Fragment>
 
-           <Container fluid={true} className="skillsArea pt-80 pb-80">
+           <Container fluid={true} className="skillsArea pt-80 pb-80" id='skills'>
                    <h4 className="projectAreaTitle pb-5">
                   
                     
@@ -74,7 +74,7 @@ const Skill = () => {
                         
                       
                             <p className="CounterFont">
-                            <CountUp start={0} end={10}>
+                            <CountUp start={0} end={14}>
                                 {({ countUpRef, start }) => (
                                       <VisibilitySensor onChange={start} delayCall>
                                         <span ref={countUpRef} />
@@ -95,7 +95,7 @@ const Skill = () => {
                         
                        
                             <p className="CounterFont">
-                            <CountUp start={0} end={4}>
+                            <CountUp start={0} end={6}>
                                 {({ countUpRef, start }) => (
                                       <VisibilitySensor onChange={start} delayCall>
                                         <span ref={countUpRef} />

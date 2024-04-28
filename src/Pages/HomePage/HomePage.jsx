@@ -8,12 +8,12 @@ import Reviews from '../../Components/Reviews/Reviews';
 import Contact from '../../Components/Contact/Contact';
 import Footer from '../../Components/Footer/Footer';
 import TopNavbar from './../../Components/TopNavBar/TopNavbar';
-
+import Sidebar from './../../Components/Sidebar/SideBar';
 
 const HomePage = () => {
   return (
     <Fragment>
-    <TopNavbar/>    
+    <TopNavbar/> 
     <TopBanner/>
     <About/>
     <Services/>

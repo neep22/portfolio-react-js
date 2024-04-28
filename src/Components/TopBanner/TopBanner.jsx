@@ -5,7 +5,7 @@ import"../../assets/css/custom.css";
 function TopBanner() {
   return (
     <Fragment>
-        <Container fluid={true} className="TopBanner">
+        <Container fluid={true} className="TopBanner" id='/'>
             <div className="BannerOverlay">
             </div>
             <Container className='TopContent'>
@@ -13,13 +13,13 @@ function TopBanner() {
                     <Col className="text-center">
 
                      <span className="TopTitleSpan">
-                      
+                      Hello !! I'm
                      </span>
                      <h1 className="TopTitle">Nader Nihal Neep</h1>
                      <h4 className="TopSubTitle">
                       I'm Web Application Developer
                       </h4>
-                     <a href="" className="BannerBtn">Read More</a>                      
+                     <a href="" className="mt-2 BannerBtn">Read More</a>                      
                     </Col>
                 </Row>
                </Container>

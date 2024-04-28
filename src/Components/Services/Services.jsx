@@ -10,7 +10,7 @@ import { useAnimation, motion } from "framer-motion";
 const Services = () => {
   return (
     <Fragment>
-        <Container fluid={true} className="ServiceContainer text center pt-80 pb-80">
+        <Container fluid={true} className="ServiceContainer text center pt-80 pb-80" id='services'>
         <h4 className="projectAreaTitle">
        
           My Services</h4>
@@ -19,8 +19,8 @@ const Services = () => {
               <Col lg={4} md={12} sm={6} className="pt-3 mt-5">
                <motion.div
                       viewport={{once:false}}
-                      initial={{opacity:0,x:-100}}
-                      whileInView={{opacity:1,x:0}}
+                      initial={{opacity:0,y:-100}}
+                      whileInView={{opacity:1,y:0}}
                       transition={{type:'easeIn',
                         duration:.5,
                         delay:.3
@@ -54,7 +54,7 @@ const Services = () => {
                       <p><FontAwesomeIcon icon={faFileCode} style={{color:"black", fontSize:"40px", paddingBottom:"5px"}} /></p>
                        <Card.Title className="ServiceTitle">Web Design</Card.Title>
                            <Card.Text className="ServiceDescription">
-                           I promise to transform your bussiness through modern technologies. Using my years of experience in web design. I will build  a website that would work incredibly for you as well as our customers
+                           I promise to transform your bussiness through modern technologies. Using my years of experience in web design. I will build  a website that would work incredibly for you as well as our customers.
                            </Card.Text>
                            <a className="ServiceLink">More Details</a>
                       </Card.Body>
@@ -64,8 +64,8 @@ const Services = () => {
                 <Col lg={4} md={12} sm={6} className="pt-3 mt-5">
                  <motion.div
                         viewport={{once:false}}
-                        initial={{opacity:0,x:100}}
-                        whileInView={{opacity:1,x:0}}
+                        initial={{opacity:0,y:-100}}
+                        whileInView={{opacity:1,y:0}}
                         transition={{type:'easeIn',
                           duration:.5,
                           delay:.3
