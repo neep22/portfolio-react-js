@@ -5,7 +5,7 @@ import"../../assets/css/custom.css";
 function TopBanner() {
   return (
     <Fragment>
-        <Container fluid={true} className="TopBanner" id='/'>
+        <Container fluid={true} className="TopBanner">
             <div className="BannerOverlay">
             </div>
             <Container className='TopContent'>
